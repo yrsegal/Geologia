@@ -1,0 +1,16 @@
+[
+{
+  "modid": "geology",
+  "name": "Geology",
+  "description": "A Botania addon about rocks and dirt!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://minecraft.curseforge.com/mc-mods/235646-geology-rocks-and-dirt",
+  "updateUrl": "",
+  "authorList": ["Nucleria"],
+  "credits": "The MinecraftForge IRC channel, the Forge forums, minicooperracer1, and BedrockMiner.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

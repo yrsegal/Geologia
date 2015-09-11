@@ -1,0 +1,15 @@
+.metadata
+.settings
+.project
+MinecraftForge-Credits.txt
+MinecraftForge-License.txt
+README.txt
+LICENSE-fml.txt
+forge-1.8-11.14.3.1502-changelog.txt
+CREDITS-fml.txt
+bin
+build
+.DS_Store
+.classpath
+eclipse
+libs
