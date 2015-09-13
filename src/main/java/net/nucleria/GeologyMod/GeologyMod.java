@@ -13,9 +13,9 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(name = GeologyMod.NAME, modid = GeologyMod.MODID, version = GeologyMod.VERSION, dependencies = GeologyMod.DEPENDENCIES)
 public class GeologyMod
 {
-	public static final String NAME = "Geology";
+	public static final String NAME = "Geologia";
     public static final String MODID = "geology";
-    public static final String VERSION = "1.8-0.0.2.0";
+    public static final String VERSION = "1.7.10-0.0.3.0";
     public static final String DEPENDENCIES = "required-after:Botania;after:Baubles;after:Botania";
     
     @SidedProxy(clientSide = "net.nucleria.GeologyMod.client.ClientProxy",
