@@ -16,7 +16,7 @@ public class GeologyMod
 	public static final String NAME = "Geologia";
     public static final String MODID = "geology";
     public static final String VERSION = "1.7.10-0.0.3.0";
-    public static final String DEPENDENCIES = "required-after:Botania;after:Baubles;after:Botania";
+    public static final String DEPENDENCIES = "required-after:Botania;after:Baubles;";
     
     @SidedProxy(clientSide = "net.nucleria.GeologyMod.client.ClientProxy",
     		serverSide = "net.nucleria.GeologyMod.common.ServerProxy")
