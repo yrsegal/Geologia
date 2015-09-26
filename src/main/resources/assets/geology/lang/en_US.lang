@@ -1,8 +1,11 @@
-item.auto_sifter.name=Electrolytic Seperator
+item.auto_sifter.name=Electrolytic Separation Tool
 
-item.raw_copper.name=Raw Copper Fragment
-item.raw_alum.name=Raw Aluminum Fragment
-item.raw_iron.name=Raw Iron Fragment
-item.raw_gypsum.name=Raw Gypsum Fragment
+item.raw_rock_0.name=Raw Copper Fragment
+item.raw_rock_3.name=Raw Aluminum Fragment
+item.raw_rock_1.name=Raw Iron Fragment
+item.raw_rock_2.name=Raw Gypsum Fragment
 
-tile.mineral_altar.name=Mineral Altar
+item.pure_rock_0.name=Pure Copper
+item.pure_rock_3.name=Pure Aluminum
+item.pure_rock_1.name=Pure Iron
+item.pure_rock_2.name=Pure Gypsum

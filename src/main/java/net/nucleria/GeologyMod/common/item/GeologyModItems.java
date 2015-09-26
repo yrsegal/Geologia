@@ -7,26 +7,24 @@ public final class GeologyModItems {
 	
 	public static Item ItemAutoSifter;
 	
-	public static Item ItemCopperRaw;
-	public static Item ItemIronRaw;
-	public static Item ItemGypsumRaw;
-	public static Item ItemAlumRaw;
+	public static Item ItemRockRaw;
+	
+	public static Item ItemRockPure;
 	
 	public static void createItems(){
 		
 		ItemAutoSifter = new ItemAutoSifter();
 		
-		ItemCopperRaw = new ItemCopperRaw();
-		ItemIronRaw = new ItemIronRaw();
-		ItemGypsumRaw = new ItemGypsumRaw();
-		ItemAlumRaw = new ItemAlumRaw();
+		ItemRockRaw = new ItemRockRaw();
 		
+		ItemRockPure = new ItemRockPure();
+
 		GameRegistry.registerItem(ItemAutoSifter, "auto_sifter");
+
+		GameRegistry.registerItem(ItemRockRaw, "raw_rock");
 		
-		GameRegistry.registerItem(ItemCopperRaw, "raw_copper");
-		GameRegistry.registerItem(ItemIronRaw, "raw_iron");
-		GameRegistry.registerItem(ItemGypsumRaw, "raw_gypsum");
-		GameRegistry.registerItem(ItemAlumRaw, "raw_alum");
+		GameRegistry.registerItem(ItemRockPure, "pure_rock");
+
 	}
 	
 }

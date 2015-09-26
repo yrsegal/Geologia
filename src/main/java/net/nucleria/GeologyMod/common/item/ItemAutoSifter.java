@@ -1,5 +1,7 @@
 package net.nucleria.GeologyMod.common.item;
 
+import java.util.Random;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
@@ -10,7 +12,9 @@ import net.minecraft.world.World;
 import net.nucleria.GeologyMod.GeologyMod;
 
 public class ItemAutoSifter extends Item {
-
+	
+	Random rand = new Random();
+	
 	public ItemAutoSifter(){
 		super();
 		
@@ -24,7 +28,7 @@ public class ItemAutoSifter extends Item {
 	public boolean onItemUse(ItemStack stack, EntityPlayer playerIn, World worldIn, int x, int y, int z, int side, float px, float py, float pz){
 		
 		if (worldIn.getBlock(x, y, z) == Blocks.dirt){
-			ItemStack copperStack = new ItemStack(GeologyModItems.ItemCopperRaw);
+			ItemStack copperStack = new ItemStack(GeologyModItems.ItemRockRaw, 1, rand.nextInt(4));
 			
 			worldIn.setBlockToAir(x, y, z);
 			playerIn.inventory.addItemStackToInventory(copperStack);
@@ -33,7 +37,7 @@ public class ItemAutoSifter extends Item {
 		}
 		
 		if (worldIn.getBlock(x, y, z) == Blocks.grass){
-			ItemStack alumStack = new ItemStack(GeologyModItems.ItemAlumRaw);
+			ItemStack alumStack = new ItemStack(GeologyModItems.ItemRockRaw, 1, rand.nextInt(4));
 			
 			worldIn.setBlockToAir(x, y, z);
 			playerIn.inventory.addItemStackToInventory(alumStack);
@@ -42,7 +46,7 @@ public class ItemAutoSifter extends Item {
 		}
 		
 		if (worldIn.getBlock(x, y, z) == Blocks.gravel){
-			ItemStack ironStack = new ItemStack(GeologyModItems.ItemIronRaw);
+			ItemStack ironStack = new ItemStack(GeologyModItems.ItemRockRaw, 1, rand.nextInt(4));
 			
 			worldIn.setBlockToAir(x, y, z);
 			playerIn.inventory.addItemStackToInventory(ironStack);
@@ -51,7 +55,7 @@ public class ItemAutoSifter extends Item {
 		}
 		
 		if (worldIn.getBlock(x, y, z) == Blocks.sand){
-			ItemStack gypsumStack = new ItemStack(GeologyModItems.ItemGypsumRaw);
+			ItemStack gypsumStack = new ItemStack(GeologyModItems.ItemRockRaw, 1, rand.nextInt(4));
 			
 			worldIn.setBlockToAir(x, y, z);
 			playerIn.inventory.addItemStackToInventory(gypsumStack);
