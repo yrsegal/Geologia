@@ -1,11 +1,12 @@
 .metadata
 .settings
 .project
+.gradle
 MinecraftForge-Credits.txt
 MinecraftForge-License.txt
 README.txt
 LICENSE-fml.txt
-forge-1.8-11.14.3.1502-changelog.txt
+forge-*-changelog.txt
 CREDITS-fml.txt
 bin
 build
