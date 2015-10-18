@@ -11,5 +11,4 @@ bin
 build
 .DS_Store
 .classpath
-eclipse
 libs
