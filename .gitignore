@@ -1,6 +1,7 @@
 .metadata
 .settings
-.project
+.classpath
+gradle.log
 .gradle
 MinecraftForge-Credits.txt
 MinecraftForge-License.txt
@@ -11,5 +12,5 @@ CREDITS-fml.txt
 bin
 build
 .DS_Store
-.classpath
+eclipse
 libs
